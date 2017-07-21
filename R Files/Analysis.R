@@ -50,7 +50,7 @@ ggplot(Tamsui2, aes(Month, O3, color = O3)) +
       These levels are unhealthy - affecting children and older adults." ) +
   theme(axis.text=element_text(size=14), axis.title=element_text(size=14), plot.caption = element_text(size=12, hjust = .5), plot.title = element_text(size = 20, hjust = .5)) 
 
-ggsave("tamsui_plot.png", plot = tamsui_plot, path = "Images", device = "png", scale = 1.5)
+ggsave("tamsui_plot2.png", plot = tamsui_plot, path = "Images", device = "png", scale = 1)
 
 
 
